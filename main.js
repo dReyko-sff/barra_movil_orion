@@ -81,7 +81,7 @@ form.addEventListener("submit", (e) => {
   const fecha = new Date(form.fecha.value + "T12:00").toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
   const r = calcular(estado.servicio, estado.invitados);
   const mensaje = [
-    "¡Hola Barra Móvil GS! 🍹 Quiero consultar disponibilidad:",
+    "¡Hola Barra Móvil ORION! 🍹 Quiero consultar disponibilidad:",
     `📍 Fecha: ${fecha}`,
     `👥 Invitados: ${form.invitados.value}`,
     `🎉 Tipo de evento: ${form.tipo.value}`,
