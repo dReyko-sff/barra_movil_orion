@@ -2,9 +2,9 @@
 const WHATSAPP = "5491166651037";
 
 const PRECIOS = {
-  alcohol: { nombre: "Barra completa con alcohol", corto: "barra con alcohol", porPersona: 22900, minimo: 30 },
-  sin: { nombre: "Barra completa sin alcohol", corto: "barra sin alcohol", porPersona: 12900 },
-  barman: { nombre: "Servicio de barman", corto: "servicio de barman", porBarman: 120000 },
+  alcohol: { nombre: "Barra completa con alcohol", corto: "barra con alcohol", porPersona: 25900, minimo: 30 },
+  sin: { nombre: "Barra completa sin alcohol", corto: "barra sin alcohol", porPersona: 14900 },
+  barman: { nombre: "Servicio de barman", corto: "servicio de barman", porBarman: 180000 },
 };
 
 const pesos = (n) => "$" + n.toLocaleString("es-AR");
